@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+
+body {
+    background-image: url(./Imagens/espaço1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    color: #4137ad;
+    font-family: 'Nasa', sans-serif;
+    text-shadow: 0 0 13px #fff, 0 0 13px #e90df4;
+    padding: 1em 1em 1em;
+    font-size: 4rem;
+    text-align: right;
+}
+
+main {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #130a2138;
+    color: #fefaff;
+    text-shadow: 1px 1px 2px #000000b3;
+    padding: 3rem;
+    width: 40rem;
+    gap: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px #fff, 0 0 10px #e90df4;
+}
+
+button {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0px none #646464;
+    border-radius: 75px;
+    background: linear-gradient(121deg,
+            #e90df4 12%,
+            #8f3ef4 24%,
+            #4c74fc 36%,
+            #695cfb 48%);
+    box-shadow: 0 0 10px #fff, 0 0 10px #e90df4;
+
+}
+
+button:hover {
+    color: #fff;
+    cursor: pointer;
+}
