@@ -62,7 +62,7 @@ button:hover {
     cursor: pointer;
 }
 
-input{
+input {
     font-size: 1.1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -71,4 +71,35 @@ input{
     padding: 0.5rem;
     background-color: #695cfb;
     color: #fff;
+}
+
+iframe {
+    box-shadow: 0 0 10px #fff, 0 0 10px #e90df4;
+    border-radius: 20px;
+    height: 20rem;
+    width: 33rem;
+}
+
+img {
+    box-shadow: 0 0 10px #fff, 0 0 10px #e90df4;
+    border-radius: 20px;
+    height: 20rem;
+    width: 33rem;
+}
+
+.conteudoDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    align-items: center;
+}
+
+.conteudo {
+    margin: 3rem;
+    width: 30rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fefaff;
+    border: none;
 }

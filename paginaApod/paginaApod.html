@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/png" href="../Imagens/iconefoguete.png" />
-    <link href="http://fonts.cdnfonts.com/css/nasa" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/nasa" rel="stylesheet">
     <link rel="stylesheet" href="./styleApod.css">
     <title>NASA APOD</title>
 </head>
@@ -18,15 +18,22 @@
         <div class="data">
             <label for="">Selecione uma data:</label>
             <input id="inputData" type="date" min="1995-06-16">
+            <button type="submit" id="submit" value="botao">Pesquisar</button>
+            <button onclick="inicio()">Inicio</button>
+        </div>
+    </main></br>
+
+    <div class="conteudoDiv" id="conteudoDiv">
+        <img id="imgApod" src="" alt="">
+        <iframe id="videoApod" src=""></iframe>
+        <div class="conteudo" id="conteudo" >
+            <h3 id="tituloApod"></h3>
+            <p id="textApod"></p>
         </div>
 
-        <div>
-        <button onclick="pesquisar()">Pesquisar</button>
-        <button onclick="inicio()">inicio</button>
-        </div>
-
-    </main>
-    <script src="../index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="../index.js"></script>
 
 </body>
 
