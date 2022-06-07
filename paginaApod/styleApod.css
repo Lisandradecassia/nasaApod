@@ -202,6 +202,10 @@ img {
         text-align: center;
     }
 
+    input{
+        font-size: 0.8rem;
+    }
+
     main {
         display: flex;
         align-items: center;
@@ -272,6 +276,10 @@ img {
         height: 2.0rem;
         padding: 0;
 
+    }
+
+    input{
+        font-size: 0.8rem;
     }
 
     .data {
